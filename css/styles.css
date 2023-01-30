@@ -1,0 +1,171 @@
+body{
+	font-family: 'Playfair Display', serif;
+	background-color:FloralWhite;
+}
+.title{
+	text-align:center;
+	color:brown;
+}
+.textcolor{
+	color:DarkOrange ;
+}
+.container1{
+	width:auto;
+	height:auto;
+	background-color:rgb(255,0,0);
+	text-align:center;}
+	.container2{
+	width:auto;
+	height:auto;
+	background-color:rgba(255,0,0,0.5);
+	text-align:center;}
+	.container3{
+	width:auto;
+	height:auto;
+	background-color:#ee82ee;
+	text-align:center;}
+	.container4{
+	width:auto;
+	height:auto;
+	background-color:DodgerBlue;
+	text-align:center;}
+	/*.textalign{
+		margin-left:100px;
+	}*/
+	.alignleft{
+		text-align:left;
+	}
+	.alignright{
+		text-align:right;
+	}
+	.aligncenter{
+		text-align:center;
+	}
+	.alignjustify{
+		border:1px solid black;
+		padding:10px;
+		width:500px;
+		height:auto;
+		text-align:justify;
+	}
+	.alignlastright{
+		border:1px solid black;
+		padding:10px;
+		width:500px;
+		height:auto;
+		text-align-last:right;
+		
+	}
+	.alignlastcenter{
+		border:1px solid black;
+		padding:10px;
+		width:500px;
+		height:auto;
+		text-align-last:center;
+		
+	}
+	.alignlastjustify{
+		border:1px solid black;
+		padding:10px;
+		width:500px;
+		height:auto;
+		text-align-last:justify;
+		
+	}
+	.bidi{
+		direction:rtl;
+		unicode-bidi:bidi-override;
+	}
+	.container5{
+		width:auto;
+		height:auto;
+	
+	}
+	.verticalaligntop{
+		vertical-align:text-top;
+	}
+	.verticalalignbottom{
+		vertical-align:text-bottom;
+	}
+	.container6{
+		color:DodgerBlue;
+		
+	}
+	.oline{
+		text-decoration:overline;	
+		font-size:30px;
+	}
+	.uline{
+		text-decoration:underline;	
+		font-size:30px;
+		display:inline;
+	}
+	.duline{
+		text-decoration-line: underline;
+		text-decoration-style: double;
+		font-size:30px;
+		display:inline;
+	}
+	.tline{
+		text-decoration:line-through;	
+		font-size:30px;
+	}
+	.ouline{
+		text-decoration:overline underline;	
+		font-size:30px;
+	}
+	.dotline{
+		text-decoration-line: underline;
+		text-decoration-style: dotted;
+		font-size:30px;
+		display:inline;
+	}
+	.dashline{
+		text-decoration-line: underline;
+		text-decoration-style: dashed;
+		font-size:30px;
+		display:inline;
+	}
+	.wavyline{
+		text-decoration-line: underline;
+		text-decoration-style: wavy;
+		font-size:30px;
+		display:inline;
+	}
+	.indent{
+		text-indent:50px;
+	}
+	.letterspacing1{
+		letter-spacing:10px;
+	}
+	.letterspacing2{
+		letter-spacing:-2px;
+	}
+	.lineheight{
+		line-height:50px;
+	}
+	.wordspacing{
+		word-spacing:30px;
+	}
+	.textshadow{
+		text-align:center;
+		font-size:30px;
+		color:white ;
+		text-shadow:2px 2px 5px red, 0 0 15px red  ;
+	}
+	.boxshadow{
+		margin:30px auto;
+		width:150px;
+		height:150px;
+		background-color:LimeGreen ;
+		box-shadow:0 15px 10px 1px black, 0 0 20px 2px green;
+		border-radius:50%;
+	}
+	.box{
+		padding:20px;
+		text-align:center;
+		color:white;	
+	}
+	.makeitcenter{
+		margin:10px 490px;
+	}
